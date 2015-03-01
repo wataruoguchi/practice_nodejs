@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 				// define a string to put between asch file in he concatenated output
 				separator: ';'
 			},
-			dist {
+			dist: {
 				// the files to concatenate
 				src: ['src/**/*.js'],
 				// the location of the resulting JS file
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 
 	// This would be run by typing "grunt test" on the command line
-	grunt.registerTask('test'. ['jshint', 'qunit']);
+	grunt.registerTask('test', ['jshint', 'qunit']);
 
 	// Default task(s).
 	grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify'], function(){
