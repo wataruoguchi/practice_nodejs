@@ -13,6 +13,12 @@ First repository is following [The Node Beginner Book](http://www.nodebeginner.o
   * tcp_server_echo.js is using the socket object, and testing either piping into/out the socket.
   * tcp_server_chat.js is a simple TCP chat server. Broadcast messages by a socket to other sockets.
 
+* Creating HTTP Servers
+  * http_server.js is a simple HTTP server which writes header information.
+  * http_server_movie.js is a HTTP server which pipes ReadStream(movie) into the response. The ReadStream starts playing immediately even though it's not fully loaded.
+  * http_server_piping.js is a HTTP server which pipes the output of a child process into the response.
+
+
 ## References
 * [Writing Fast, Memory-Efficient JavaScript](http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/)
 * [GETTING UP AND RUNNING WITH NODE.JS, EXPRESS, JADE, AND MONGODB](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
