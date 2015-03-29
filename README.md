@@ -24,6 +24,7 @@ First repository is following [The Node Beginner Book](http://www.nodebeginner.o
   * tcp_client_example.js is a TCP client which connects a TCP server.
   * tcp_client_reconnectable.js is a TCP client which tries to connect to the server when the server get disconnected.
   * tcp_client_reconnectable_2.js is an advanced TCP client which tries to connect to the server every 3 sec when the server get closed.
+  * tcp_client_reconnectable_3.js allows you to quit it by typing 'quit'.
 
 ## References
 * [Writing Fast, Memory-Efficient JavaScript](http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/)
