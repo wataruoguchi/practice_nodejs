@@ -17,6 +17,7 @@ First repository is following [The Node Beginner Book](http://www.nodebeginner.o
   * http_server.js is a simple HTTP server which writes header information.
   * http_server_movie.js is a HTTP server which pipes ReadStream(movie) into the response. The ReadStream starts playing immediately even though it's not fully loaded.
   * http_server_piping.js is a HTTP server which pipes the output of a child process into the response.
+  * http_server_staticFile.js is a simple HTTP server which serves static files.
 
 
 ## References
