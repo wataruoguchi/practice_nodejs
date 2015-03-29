@@ -20,6 +20,10 @@ First repository is following [The Node Beginner Book](http://www.nodebeginner.o
   * http_server_staticFile.js is a simple HTTP server which serves static files.
   * http_server_chunked.js is a HTTP server which generates chunked response every second.
 
+* Building TCP clients
+  * tcp_client_example.js is a TCP client which connects a TCP server.
+  * tcp_client_reconnectable.js is a TCP client which tries to connect to the server when the server get disconnected.
+
 ## References
 * [Writing Fast, Memory-Efficient JavaScript](http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/)
 * [GETTING UP AND RUNNING WITH NODE.JS, EXPRESS, JADE, AND MONGODB](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
