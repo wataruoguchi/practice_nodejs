@@ -44,7 +44,7 @@ Error in connection: { [Error: connect ECONNREFUSED]
   code: 'ECONNREFUSED',
   errno: 'ECONNREFUSED',
   syscall: 'connect' }
-Connection got closed, will try to reconnect
+Connection got closed, will try to reconnect.
 
 Until the server launches again.
 However, it is not recommended that you reconnect immediately after you get disconnected.
